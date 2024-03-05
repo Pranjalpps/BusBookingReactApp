@@ -21,7 +21,6 @@ export default function DashBoard3() {
     useReservations();
   const [rows, setRows] = React.useState(reservations);
   const [rowModesModel, setRowModesModel] = React.useState({});
-  // const { enqueueSnackbar } = useSnackbar();
   const [errMessage, setErrMessage] = React.useState("");
   const [isSnackBarOpen, setIsSnackBarOpen] = React.useState(false);
 
@@ -189,7 +188,7 @@ export default function DashBoard3() {
           }}
         >
           There are no Bookings to display. Please go to the
-          <Link style={{ margin: "4px" }} to="/reservation">
+          <Link style={{ margin: "4px" }} to="/BusBookingReactApp/reservation">
             {" "}
             {" Reservation "}{" "}
           </Link>{" "}
@@ -197,11 +196,9 @@ export default function DashBoard3() {
         </Box>
       )}
       <Snackbar
-        open={isSnackBarOpen} // Boolean to control whether the Snackbar is displayed
-        autoHideDuration={6000} // Number of milliseconds to display the Snackbar
-        onClose={() => setIsSnackBarOpen(false)} // Function to handle the close event
-        // message={errMessage}
-        // Message to be displayed in the Snackbar
+        open={isSnackBarOpen}
+        autoHideDuration={6000} 
+        onClose={() => setIsSnackBarOpen(false)} 
       >
         <Alert
           severity="error"
