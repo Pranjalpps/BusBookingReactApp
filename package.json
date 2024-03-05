@@ -1,7 +1,7 @@
 {
   "name": "bus-booking",
   "version": "0.1.0",
-  "homepage":"https://github.com/Pranjalpps/BusBookingReactApp",
+  "homepage": "https://Pranjalpps.github.io/BusBookingReactApp",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",

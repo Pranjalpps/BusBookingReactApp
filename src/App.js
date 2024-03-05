@@ -11,8 +11,8 @@ export default function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route exact path="/pranjalpps/BusBookingReactApp" element={<DashBoard/>} />
-          <Route path="/pranjalpps/BusBookingReactApp/reservation" element={<Reservation />} />
+          <Route exact path="/BusBookingReactApp" element={<DashBoard/>} />
+          <Route path="/BusBookingReactApp/reservation" element={<Reservation />} />
         </Routes>
       </BrowserRouter>
     </ReservationProvider>

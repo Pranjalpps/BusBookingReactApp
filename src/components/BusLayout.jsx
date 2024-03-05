@@ -64,7 +64,7 @@ const BusLayout = ({ setSelectedSeat }) => {
       >
         <img
           className={classes.steeringIcon}
-          src="/assets/images/steeringWheel.jpg"
+          src="assets/images/steeringWheel.jpg"
         />
         <div className={classes.deckTitle}>Lower Deck</div>
         <div className={classes.line}></div>

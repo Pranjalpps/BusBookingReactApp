@@ -17,7 +17,7 @@ function NavBar() {
           color="inherit"
           sx={{ fontWeight: "bold" }}
           component={Link}
-          to="/pranjalpps/BusBookingReactApp/"
+          to="/BusBookingReactApp/"
         >
           Dashboard
         </Button>
@@ -25,7 +25,7 @@ function NavBar() {
           color="inherit"
           sx={{ fontWeight: "bold" }}
           component={Link}
-          to="/pranjalpps/BusBookingReactApp/reservation"
+          to="/BusBookingReactApp/reservation"
         >
           Reservation
         </Button>
