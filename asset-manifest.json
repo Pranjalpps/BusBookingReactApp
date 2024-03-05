@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/BusBookingReactApp/static/js/main.213cbfa8.js",
+    "main.js": "/BusBookingReactApp/static/js/main.04185be1.js",
     "index.html": "/BusBookingReactApp/index.html",
-    "main.213cbfa8.js.map": "/BusBookingReactApp/static/js/main.213cbfa8.js.map"
+    "main.04185be1.js.map": "/BusBookingReactApp/static/js/main.04185be1.js.map"
   },
   "entrypoints": [
-    "static/js/main.213cbfa8.js"
+    "static/js/main.04185be1.js"
   ]
 }
