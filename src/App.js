@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Reservation from "./components/Reservation";
 import { ReservationProvider } from "./components/ReservationContext";
-import DashBoard3 from "./components/DashBoard.jsx";
+import DashBoard from "./components/DashBoard.jsx";
 
 export default function App() {
   return (
@@ -11,8 +11,8 @@ export default function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<DashBoard3 />} />
-          <Route path="/reservation" element={<Reservation />} />
+          <Route exact path="/pranjalpps/BusBookingReactApp" element={<DashBoard/>} />
+          <Route path="/pranjalpps/BusBookingReactApp/reservation" element={<Reservation />} />
         </Routes>
       </BrowserRouter>
     </ReservationProvider>
