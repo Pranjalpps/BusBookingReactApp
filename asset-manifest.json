@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Pranjalpps/BusBookingReactApp/static/js/main.6396e88d.js",
+    "main.js": "/Pranjalpps/BusBookingReactApp/static/js/main.89dc96f9.js",
     "index.html": "/Pranjalpps/BusBookingReactApp/index.html",
-    "main.6396e88d.js.map": "/Pranjalpps/BusBookingReactApp/static/js/main.6396e88d.js.map"
+    "main.89dc96f9.js.map": "/Pranjalpps/BusBookingReactApp/static/js/main.89dc96f9.js.map"
   },
   "entrypoints": [
-    "static/js/main.6396e88d.js"
+    "static/js/main.89dc96f9.js"
   ]
 }
